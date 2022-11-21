@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/codex-ps-frontend/static/css/main.d7b42841.css",
+    "main.js": "/codex-ps-frontend/static/js/main.a5b6f09b.js",
+    "static/media/layered-steps-haikei.svg": "/codex-ps-frontend/static/media/layered-steps-haikei.a30c8543cbcd1aa9ae6b.svg",
+    "index.html": "/codex-ps-frontend/index.html",
+    "main.d7b42841.css.map": "/codex-ps-frontend/static/css/main.d7b42841.css.map",
+    "main.a5b6f09b.js.map": "/codex-ps-frontend/static/js/main.a5b6f09b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7b42841.css",
+    "static/js/main.a5b6f09b.js"
+  ]
+}
