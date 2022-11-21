@@ -1,5 +1,4 @@
 import styles from './styles.module.css';
-import axios from 'axios';
 import { useState, useEffect } from 'react';
 import { api } from '../../api/api'
 
@@ -52,7 +51,7 @@ const Task = () => {
     const deleteItem = async (id) => {
       try {
         const res = await api.delete(`/api/item/${id}`)
-        const newListItems = listItems.filter(item => item._id != id)
+        const newListItems = listItems.filter(item => item._id !== id)
         setListItems(newListItems)
       } catch (error) {
         console.log(error)
